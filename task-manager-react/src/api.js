@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:8080/api" });
+const API = axios.create({ baseURL: "https://taskmanager-msd-3.onrender.com/api" });
+
 
 // ✅ Add token for every request
 API.interceptors.request.use((req) => {
